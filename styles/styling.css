@@ -1,0 +1,152 @@
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image:radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(150, 1, 7, 0.4) 1.42%, rgba(30, 1, 66, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%),linear-gradient(98.24deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 132%),url(../pictures/bg-pic.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    border-radius: 25px;
+   
+}
+#sign-in{
+    cursor: pointer;
+}
+
+
+.main-elements{
+    padding-top: 130px;
+}
+.top-heading{
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing:-3px;
+    margin-bottom: 18px;
+}
+
+.email-box{
+    height: 56px;
+    width: 376px;
+  border-radius: 5px;
+   border-style: solid;
+   border-width: 1px;
+   
+}
+.get-started{
+    font-weight: bold;
+    border: none;
+    height: 56px;
+    width: 200px;
+    font-size: 22px;
+    
+    background-color: red;
+    border-radius: 5px;
+}
+.thumb{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+
+   
+}
+.thumb img{
+    width: 100%;
+   
+}
+
+
+.headline{
+   width: 100%;
+    font-weight: 900;
+}
+.description{
+    font-size: 20px;
+}
+
+
+.opacity-75{
+    cursor: pointer;
+}
+
+
+
+.accordion {
+    background-color: rgba(19, 33, 68, 1);
+    color:white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: 85px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(37, 52, 89);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\00D7";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgba(19, 33, 68, 1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 25px;
+  }
+
+
+@media only screen and (max-width:600px){
+
+.top-heading{
+    font-size:45px ;
+   
+}
+.english-bar {
+    width: 100%;
+    position: absolute;
+    left: 0;
+   
+}
+
+#english-text{
+    display: none;
+    
+}
+
+
+.thumb{
+    display: block;
+    padding: 0;
+    margin-top: 75px;
+    
+    
+    
+}
+.thumb img{
+  width: 375px;
+   
+   
+}
+.thumb .state{
+    width: 100%;
+    margin-top: 0;
+    
+}
+
+}
